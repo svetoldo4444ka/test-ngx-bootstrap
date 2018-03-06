@@ -52,7 +52,9 @@ Add needed package to AppModule imports:
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 
 @NgModule({
+  ...
   imports: [TooltipModule.forRoot(),...]
+  ...
 })
 ```
 
