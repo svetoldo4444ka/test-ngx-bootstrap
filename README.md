@@ -108,9 +108,8 @@ First time:
  - `npm run test` it will build the lib and create a link in `node_modules`
 
 Keeping a fork up to date:
- - git pull upstream master
- - `npm run build` to build project
- - `npm run link` to link project
+ - git pull upstream development
+ - `npm run test`
 
  To run bootstrap 3 and 4 demo:
  - `npm run demo.serve` to serve local demo. This is for testing only, without watchers.
