@@ -35,26 +35,26 @@ Now that the project is set up it must be configured to include the Bootstrap CS
 
    - Specify the path to bootstrap.min.css
 
-   It should look like the following when you are done:  
-   ```
-      "styles": [  
-      "../node_modules/bootstrap/dist/css/bootstrap.min.css",  
-      "styles.css"  
-      ],
-   ```
+     It should look like the following when you are done:  
+     ```
+        "styles": [  
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",  
+        "styles.css"  
+        ],
+     ```
      
-   Note: When you make changes to .angular-cli.json you will need to re-start ng serve to pick up configuration changes.
+     Note: When you make changes to .angular-cli.json you will need to re-start ng serve to pick up configuration changes.
    
  - add styles to index.html:
    - for Bootstrap 3:
-   ```
-   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-   ```
+     ```
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+     ```
 
    - or for Bootstrap 4
-   ```
-   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-   ```
+     ```
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+     ```
 
 ### Using SASS
 
