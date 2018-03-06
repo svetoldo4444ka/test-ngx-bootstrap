@@ -51,7 +51,7 @@ Now that the project is set up it must be configured to include the Bootstrap CS
      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
      ```
 
-   - or for Bootstrap 4
+   - or for Bootstrap 4:
      ```
      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
      ```
