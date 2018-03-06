@@ -35,13 +35,12 @@ Best way to quickly integrate <a href="https://getbootstrap.com/">Bootstrap 3</a
 4. [API](#api)
 5. [Troubleshooting](#troubleshooting)
 6. [Contributing](#contribution)
-7. [License](#license)
 
-# Getting Started
+## Getting Started
 
 ngx-bootstrap contains all core (and not only) Bootstrap components powered by Angular. So you don't need to include original JS components, but we are using markup and css provided by Bootstrap.
 
-# Installation instructions
+## Installation instructions
 
 Install `ngx-bootstrap` from `npm`
 ```bash
@@ -63,7 +62,7 @@ You will need bootstrap styles:
 To enable bootstrap 4 theme templates in ngx-bootstrap, please read
 [this](https://github.com/valor-software/ngx-bootstrap/blob/development/docs/getting-started/bootstrap4.md) .
 
-# Usage & Demo
+## Usage & Demo
 
 Main source of API documentation and usage scenarios available here:
 [https://valor-software.com/ngx-bootstrap/](https://valor-software.com/ngx-bootstrap/)
@@ -73,14 +72,14 @@ Additionally you can find demos and docs deployed from latest code with <a href=
 
 Server side rendered version of this documentation available <a href="https://ngx-universal.herokuapp.com/">here</a>
 
-# API
+## API
 Check demo page for API [reference](https://valor-software.com/ngx-bootstrap/)
 
 ## How to use it with:
  - `angular-cli` please refer to [getting-started-with-ng-cli](https://github.com/valor-software/ngx-bootstrap/tree/development/docs/getting-started/ng-cli.md)
  - `angular-seed` please refer to [getting-started-with-angular-seed](https://github.com/valor-software/ngx-bootstrap/tree/development/docs/getting-started/angular-seed.md)
  - `system.js` (and [angular2 quickstart](https://angular.io/docs/ts/latest/quickstart.html)) please checkout [sample repository](https://github.com/valor-software/angular2-quickstart)
- - `plnkr` sample available [here](http://bit.ly/ngx-bootstrap-plnkr)
+ - `plnkr` sample available [here](https://plnkr.co/edit/0NipkZrnckZZROAcnjzB?p=preview)
  - `AoT using ngc and rollup` please refer to [ngx-bootstrap-with-aot](https://github.com/valor-software/ngx-bootstrap/tree/development/docs/getting-started/aot.md)
  - `Bootstrap 4 and angular-cli` please refer to [using-with-bootstrap-4-and-angular-cli](https://github.com/valor-software/ngx-bootstrap/tree/development/docs/getting-started/bootstrap4.md)
  - `ASP.NET Core 2.0` please refer to [using-with-asp.net-core-2](https://github.com/csegyud/ASPNETCore_ngx-bootstrap_Sample/blob/master/README.md)
@@ -107,7 +106,7 @@ Keeping a fork up to date:
   If you want to run the demo with Angular Universal:
   - `npm run demo.serve-universal`
 
-# Troubleshooting
+## Troubleshooting
 
 So if you are in trouble, here's where you can look for help.
 
@@ -116,7 +115,7 @@ You can also join [our Slack channel](https://ngx-slack.herokuapp.com/) and link
 
 If, **and only if**, none of the above helped, please open a [new issue](https://github.com/valor-software/ngx-bootstrap/issues/new).
 
-# Contribution
+## Contribution
 
 Are very welcome! And remember, contribution is not only PRs and code, but any help with docs or helping other developers to solve issues are very appreciated! Thanks in advance!
 
