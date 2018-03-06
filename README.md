@@ -48,14 +48,14 @@ Install `ngx-bootstrap` from `npm`
 npm install ngx-bootstrap --save
 ```
 
-You will need bootstrap styles (Bootstrap 3)
-
+You will need bootstrap styles: 
+- `Bootstrap 3` 
 ```
 <!-- index.html -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 ```
 
-Or Bootstrap 4
+- `Bootstrap 4` 
 ```
 <!--- index.html -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
@@ -87,15 +87,20 @@ Check demo page for API [reference](https://valor-software.com/ngx-bootstrap/)
 
 # How to build lib for development
 
-First time
+First time:
  - clone repository
  - `npm install`
  - `npm run test` it will build the lib and create a link in `node_modules`
 
+Keeping a fork up to date:
+ - git pull upstream master
+ - `npm run build` to build project
+ - `npm run link` to link project
+
  To run bootstrap 3 and 4 demo:
  - `npm run demo.serve` to serve local demo. This is for testing only, without watchers.
 
- For local development run
+ For local development run:
  - `npm run build.watch` in first terminal
  - `ng serve` in second
 
