@@ -78,8 +78,6 @@ You will need bootstrap styles:
 <!--- index.html -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 ```
-To enable bootstrap 4 theme templates in ngx-bootstrap, please read
-[this](https://github.com/valor-software/ngx-bootstrap/blob/development/docs/getting-started/bootstrap4.md) .
 
 ## Usage & Demo
 
