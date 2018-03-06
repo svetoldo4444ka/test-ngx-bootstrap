@@ -20,7 +20,7 @@ ng serve
  - install `ngx-bootstrap` and `Bootstrap`
 
  ```bash
-   npm install ngx-bootstrap bootstrap --save
+ npm install ngx-bootstrap bootstrap --save
  ```
  
 ## Using with css
@@ -73,16 +73,16 @@ If the project has already been created then
 - rename `src/styles.css` to `src/styles.scss`
 - in `.angular-cli.json` make the following changes
 ```
-   "styles": [  
-        "styles.scss" <-- rename this from .css to .scss  
-      ],
-  .  
-  .  
-  .  
-   "defaults": {  
-    "styleExt": "scss", <-- set this to default to .scss  
-    "component": {}  
-  }  
+"styles": [  
+  "styles.scss" <-- rename this from .css to .scss  
+],
+.  
+.  
+.  
+"defaults": {  
+  "styleExt": "scss", <-- set this to default to .scss  
+  "component": {}  
+}  
 ```
 Create an empty file `_variables.scss` in `src/`.
 
