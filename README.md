@@ -42,9 +42,26 @@ ngx-bootstrap contains all core (and not only) Bootstrap components powered by A
 
 ## Installation instructions
 
-Install `ngx-bootstrap` from `npm`
+Install `ngx-bootstrap` from `npm`:
 ```bash
 npm install ngx-bootstrap --save
+```
+
+Add needed package to AppModule imports:
+```
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
+
+@NgModule({
+  imports: [TooltipModule.forRoot(),...]
+})
+```
+
+Add component to your page: 
+```
+<button type="button" class="btn btn-primary"
+        tooltip="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Simple demo
+</button>
 ```
 
 You will need bootstrap styles: 
