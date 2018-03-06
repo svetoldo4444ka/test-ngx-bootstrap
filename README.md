@@ -75,7 +75,7 @@ Server side rendered version of this documentation available <a href="https://ng
 ## API
 Check demo page for API [reference](https://valor-software.com/ngx-bootstrap/)
 
-## How to use it with:
+### How to use it with:
  - `angular-cli` please refer to [getting-started-with-ng-cli](https://github.com/valor-software/ngx-bootstrap/tree/development/docs/getting-started/ng-cli.md)
  - `angular-seed` please refer to [getting-started-with-angular-seed](https://github.com/valor-software/ngx-bootstrap/tree/development/docs/getting-started/angular-seed.md)
  - `system.js` (and [angular2 quickstart](https://angular.io/docs/ts/latest/quickstart.html)) please checkout [sample repository](https://github.com/valor-software/angular2-quickstart)
@@ -84,7 +84,7 @@ Check demo page for API [reference](https://valor-software.com/ngx-bootstrap/)
  - `Bootstrap 4 and angular-cli` please refer to [using-with-bootstrap-4-and-angular-cli](https://github.com/valor-software/ngx-bootstrap/tree/development/docs/getting-started/bootstrap4.md)
  - `ASP.NET Core 2.0` please refer to [using-with-asp.net-core-2](https://github.com/csegyud/ASPNETCore_ngx-bootstrap_Sample/blob/master/README.md)
 
-# How to build lib for development
+### How to build lib for development
 
 First time:
  - clone repository
@@ -121,10 +121,10 @@ Are very welcome! And remember, contribution is not only PRs and code, but any h
 
 Please read our [contribution guidelines](https://github.com/valor-software/ngx-bootstrap/blob/development/CONTRIBUTING.md).
 
-## If you need more modules check [here](https://github.com/valor-software/ng2-plans)
+### If you need more modules check [here](https://github.com/valor-software/ng2-plans)
 
 Please read central `ngx` modules [readme](https://github.com/valor-software/ng2-plans) for details, plans and approach
 
-## Credits
+### Credits
 Crossbrowser testing sponsored by [Browser Stack](https://www.browserstack.com)
 [<img src="https://camo.githubusercontent.com/a7b268f2785656ab3ca7b1cbb1633ee5affceb8f/68747470733a2f2f64677a6f7139623561736a67312e636c6f756466726f6e742e6e65742f70726f64756374696f6e2f696d616765732f6c61796f75742f6c6f676f2d6865616465722e706e67" alt="Browser Stack" height="31px" style="background: cornflowerblue;">](https://www.browserstack.com)
