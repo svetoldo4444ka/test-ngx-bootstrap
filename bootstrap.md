@@ -1,10 +1,8 @@
-## Using with Bootstrap 3 and 4 with angular-cli
+# Using with Bootstrap and angular-cli
 
-This is extracted from the [angular-cli include bootstrap story](https://github.com/angular/angular-cli/wiki/stories-include-bootstrap) and demonstates one way to accomplish using Bootstrap with ngx-bootstrap.
-
-The important thing to note is the final section - you must let ngx-bootstrap know you are using Bootstrap 4 as it assumes BS3 by default.
+This is extracted from the [angular-cli include bootstrap story](https://github.com/angular/angular-cli/wiki/stories-include-bootstrap) and demonstates one way to accomplish using Bootstrap 3 or 4 with ngx-bootstrap. The `Bootstrap's` version is defined automatically by the `ngx-bootstrap`.
  
-#### Installing angular-cli
+## Installing angular-cli
 
 *Important*: please check `angular-cli` version, it should be latest stable
 
@@ -17,7 +15,7 @@ cd my-app
 ng serve
 ```
 
-#### Adding ngx-bootstrap and Bootstrap
+## Adding ngx-bootstrap and Bootstrap
  
  - install `ngx-bootstrap` and `Bootstrap`
 
@@ -25,24 +23,25 @@ ng serve
    npm install ngx-bootstrap bootstrap --save
  ```
  
-### Using with css
-#### Configuring Project
+## Using with css
+### Configuring Project
 
-Now that the project is set up it must be configured to include the Bootstrap CSS.
+Now that the project is set up it must be configured to include the Bootstrap CSS. You have two choices:
 
- - Open the file .angular-cli.json from the root of your project.
- - Under the property apps the first item in that array is the default application.
- - There is a property styles which allows external global styles to be applied to your application.
+ - add styles to .angular-cli.json: 
+   - Open the file .angular-cli.json from the root of your project.
+   - Under the property apps the first item in that array is the default application.
+   - There is a property styles which allows external global styles to be applied to your application.
 
- - Specify the path to bootstrap.min.css
+   - Specify the path to bootstrap.min.css
 
    It should look like the following when you are done:  
-```
-   "styles": [  
-   "../node_modules/bootstrap/dist/css/bootstrap.min.css",  
-   "styles.css"  
-   ],
-```
+   ```
+      "styles": [  
+      "../node_modules/bootstrap/dist/css/bootstrap.min.css",  
+      "styles.css"  
+      ],
+   ```
      
 Note: When you make changes to .angular-cli.json you will need to re-start ng serve to pick up configuration changes.
 
@@ -83,7 +82,7 @@ In `styles.scss` add the following:
 @import '../node_modules/bootstrap/scss/bootstrap';
 ```
 
-### Testing
+### Checkout
 
 Open `src/app/app.module.ts` and add
 
